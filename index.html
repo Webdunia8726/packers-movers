@@ -143,23 +143,23 @@
     <h2 class="section-title">Our Customer Reviews</h2>
     <div class="row">
         <!-- Video 1 -->
-        <div class="col-md-6 col-lg-3 mb-4">
+        <!-- <div class="col-md-6 col-lg-3 mb-4">
             <div class="video-container">
                 <video controls>
                     <source src="assets/images/video1.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
-        </div>
+        </div> -->
         <!-- Video 2 -->
-        <div class="col-md-6 col-lg-3 mb-4">
+        <!-- <div class="col-md-6 col-lg-3 mb-4">
             <div class="video-container">
                 <video controls>
                     <source src="assets/images/video2.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
-        </div>
+        </div> -->
         <!-- Video 3 -->
         <div class="col-md-6 col-lg-3 mb-4">
             <div class="video-container">
@@ -308,7 +308,7 @@
                         <!--service-content-->
                         <div class="service-content">
                             <div class="service-title">
-                                <h3>Car Shifting</h3>
+                                <h3>Car & Bike Shifting</h3>
                             </div>
                             <!--service-description-->
                             <div class="service-description">
@@ -881,12 +881,19 @@
                             </div>
                             <div class="col-lg-12 col-md-12">
                                 <div class="form_box style">
-                                    <input type="text" name="Subject" placeholder="Choose services">
+                                    <select name="Subject">
+                                        <option value="" disabled selected>Choose services</option>
+                                        <option value="House Shifting">House Shifting</option>
+                                        <option value="Office Shifting">Office Shifting</option>
+                                        <option value="Loading Unloading">Loading Unloading</option>
+                                        <option value="Packing-Unpacking">Packing-Unpacking</option>
+                                        <option value="Car & Bike Shifting">Car & Bike Shifting</option>
+                                    </select>
                                 </div>
                             </div>
                             <div class="col-lg-12 col-md-12">
                                 <div class="form_box">
-                                    <textarea name="massage" id="massage" cols="30" rows="10" placeholder="Your Massage"></textarea>
+                                    <textarea name="massage" id="massage" cols="30" rows="10" placeholder="Your Message"></textarea>
                                 </div>
                             </div>
                             <div class="contacts-btn">
@@ -894,6 +901,7 @@
                             </div>
                         </div>
                     </form>
+                    
                     <div id="status"></div>
                 </div>
             </div>
