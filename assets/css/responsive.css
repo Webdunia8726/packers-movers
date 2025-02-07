@@ -1,0 +1,763 @@
+/* Normal desktop :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .hero-area {
+        height: 519px;
+    }
+    .hero-area::before {
+        left: 25px;
+    }
+    .hero-thumb img {
+        width: 100%;
+    }
+    .choose-us-left {
+        right: 25px;
+    }
+    .choose-us-thumb img {
+        width: 100%;
+    }
+    .service-area::before {
+        left: 27px;
+    }
+    .counter-shape-one {
+        right: 4px;
+    }
+}
+
+/* Normal desktop :1200px. */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .header-search-button {
+        margin-left: 14px;
+        margin-right: 17px;
+    }
+    .header-search-button {
+        margin-left: 14px;
+        margin-right: 17px;
+    }
+    .header-menu ul li a {
+        padding: 40px 8px;
+    }
+    .hero-area {
+        height: 530px;
+    }
+    .hero-area::before {
+        left: 16px;
+    }
+    .hero-content {
+        margin-top: 78px;
+    }
+    .hero-thumb {
+        margin-top: 73px;
+    }
+    .hero-title h1 {
+        font-size: 48px;
+    }
+    .hero-thumb img {
+        width: 100%;
+    }
+    .service-area::before {
+        left: 20px;
+    }
+    .section-mean-title h1 {
+        font-size: 32px;
+    }
+    .choose-us-thumb img {
+        width: 100%;
+    }
+    .choose-us-left {
+        right: 19px;
+    }
+    .contact-content {
+        left: 50%;
+    }
+    .footer-social-address ul li a {
+        margin-right: 11px;
+    }
+    .counter-shape-one {
+        display: none;
+    }
+    .counter-shape-tow {
+        display: none;
+    }
+    .widget-service-details-icon p {
+        font-size: 14px;
+        margin-bottom: 2px;
+    }
+    .prot-social-icon ul li a {
+        margin-right: 12px;
+    }
+    .single-shop-icon {
+        top: 129px;
+    }
+    .single_portfolio_icon {
+        top: 114px;
+    }
+}
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-area {
+        display: none;
+    }
+    .hero-area {
+        height: 550px;
+    }
+    .hero-area::before {
+        left: 15px;
+    }
+    .hero-thumb {
+        margin-top: 130px;
+    }
+    .hero-thumb img {
+        width: 100%;
+    }
+    .hero-content {
+        margin-top: 139px;
+    }
+    .hero-title h1 {
+        font-size: 31px;
+        line-height: 35px;
+    }
+    .hero-description p {
+        width: 96%;
+    }
+    .about-area {
+        padding: 90px 0 66px;
+    }
+    .about-thumb img {
+        width: 110%;
+    }
+    .section-mean-title h1 {
+        font-size: 25px;
+    }
+    .service-area {
+        padding: 61px 0 80px;
+    }
+    .service-area::before {
+        left: 16px;
+    }
+    .service-single-box {
+        margin-bottom: 30px;
+    }
+    .choose-us-area {
+        padding: 72px 0 48px;
+    }
+    .choose-us-left {
+        right: 27px;
+    }
+    .choose-us-single-box {
+        padding: 24px 35px 24px 21px;
+    }
+    .choose-us-title h3 {
+        font-size: 13px;
+    }
+    .choose-us-description p {
+        font-size: 12px;
+    }
+    .choose-us-thumb img {
+        width: 100%;
+    }
+    .contact-content {
+        left: 31%;
+    }
+    .testimonial-area {
+        padding: 57px 0 134px;
+    }
+    .testimonial-area .section-description p {
+        width: 80%;
+    }
+    .work-area {
+        padding: 65px 0 51px;
+    }
+    .work-area .section-description p {
+        width: 71%;
+    }
+    .footer-bottom-right a {
+        font-size: 15px;
+        padding-left: 15px;
+    }
+    .recent-post-item.active {
+        padding-bottom: 45px;
+    }
+    .counter-single-box {
+        margin-bottom: 36px;
+    }
+    .counter-shape-one {
+        display: none;
+    }
+    .counter-shape-tow {
+        display: none;
+    }
+    .tab_container {
+        margin-top: 23px;
+    }
+    .protfolio-details-intro {
+        padding: 20px 30px;
+    }
+    .prot-info {
+        padding: 0 0 0 5px;
+    }
+    .blog-details-title-two h3 {
+        font-size: 18px;
+    }
+    .blog-details-title a h1 {
+        font-size: 30px;
+    }
+    .single-icon {
+        top: 77px;
+        left: 62px;
+    }
+    .shop-area {
+        padding: 79px 0 10px;
+    }
+    .shop-area .section-description p {
+        width: 100%;
+    }
+    .case-study-area.style-three .section-description p {
+        width: 86%;
+    }
+}
+
+/* Large Mobile :600px. */
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .header-area {
+        display: none;
+    }
+    .hero-area {
+        position: relative;
+        height: 1016px;
+    }
+    .hero-area::before {
+        left: 10px;
+    }
+    .hero-content {
+        text-align: center;
+        margin-top: 100px;
+    }
+    .hero-title h1 {
+        font-size: 48px;
+        line-height: 51px;
+    }
+    .hero-description p {
+        width: 100%;
+    }
+    .hero-thumb img {
+        width: 100%;
+    }
+    .about-area {
+        padding: 75px 0 70px;
+    }
+    .about-left {
+        right: 33px;
+        margin-bottom: 40px;
+    }
+    .counter-box {
+        right: -39px;
+    }
+    .service-area {
+        padding: 50px 0 70px;
+    }
+    .service-area::before {
+        left: 26px;
+        width: 91%;
+    }
+    .service-area .section-description p {
+        width: 86%;
+    }
+    .service-single-box {
+        margin-bottom: 30px;
+    }
+    .section-mean-title h1 {
+        font-size: 30px;
+        margin-top: 60px;
+    }
+    .choose-us-area {
+        padding: 65px 0 66px;
+    }
+    .choose-us-left {
+        right: 0px;
+    }
+    .testimonial-area {
+        padding: 56px 0 129px;
+    }
+    .testimonial-area .section-description p {
+        width: 81%;
+    }
+    .single-work-box {
+        padding: 21px 55px 10px;
+    }
+    .work-area {
+        padding: 68px 0 58px;
+    }
+    .work-area .section-description p {
+        width: 100%;
+    }
+    .work-box-icon::before {
+        display: none;
+    }
+    .call-do-action-area .section-description p {
+        width: 91%;
+    }
+    .contact-content {
+        top: -34px;
+        left: 29%;
+    }
+    .single-footer-box {
+        margin-bottom: 20px;
+    }
+    .recent-post-item.active {
+        padding-bottom: 43px;
+    }
+    .recent-tost-text {
+        text-align: left;
+    }
+    .company-info-title {
+        text-align: left;
+    }
+    .footer-bottom-conten {
+        text-align: center;
+    }
+    .footer-bottom-right {
+        text-align: center;
+    }
+    .counter-single-box {
+        margin-bottom: 25px;
+    }
+    .counter-shape-one {
+        display: none;
+    }
+    .counter-shape-tow {
+        display: none;
+    }
+    .single_portfolio_icon {
+        top: 250px;
+    }
+    .case-study-content {
+        padding: 18px 60px 7px;
+    }
+    .contacts-titles p {
+        width: 94%;
+    }
+    .tab_container {
+        margin-top: 23px;
+    }
+    .prot-info {
+        padding: 0 0;
+        margin-top: 35px;
+    }
+    .blog-details-title a h1 {
+        font-size: 27px;
+    }
+    .form-button {
+        margin-bottom: 39px;
+    }
+    .shop-area {
+        padding: 55px 0 3px;
+    }
+    .single-icon {
+        top: 132px;
+        left: 147px;
+    }
+    .single-shop-icon {
+        top: 220px;
+    }
+    .case-study-area.style-three {
+        padding: 61px 0 52px;
+    }
+    .case-study-area.style-three .section-description p {
+        width: 100%;
+    }
+}
+
+/* small mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+    .header-area {
+        display: none;
+    }
+    .hero-area {
+        height: 982px;
+    }
+    .hero-area::before {
+        left: 10px;
+    }
+    .hero-content {
+        text-align: center;
+        margin-top: 115px;
+    }
+    .hero-title h1 {
+        font-size: 43px;
+        line-height: 51px;
+    }
+    .hero-description p {
+        width: 100%;
+    }
+    .hero-thumb img {
+        width: 100%;
+    }
+    .about-area {
+        padding: 75px 0 70px;
+    }
+    .about-left {
+        right: 33px;
+        margin-bottom: 40px;
+    }
+    .about-thumb img {
+        width: 100%;
+    }
+    .counter-box {
+        right: -39px;
+    }
+    .service-area {
+        padding: 50px 0 70px;
+    }
+    .service-area::before {
+        left: 0;
+        width: 100%;
+    }
+    .service-area .section-description p {
+        width: 86%;
+    }
+    .service-single-box {
+        margin-bottom: 30px;
+    }
+    .section-mean-title h1 {
+        font-size: 27px;
+    }
+    .choose-us-area {
+        padding: 73px 0 68px;
+    }
+    .choose-us-left {
+        right: 0px;
+    }
+    .choose-us-thumb img {
+        width: 100%;
+    }
+    .testimonial-area {
+        padding: 49px 0 125px;
+    }
+    .testimonial-area .section-description p {
+        width: 100%;
+    }
+    .single-work-box {
+        padding: 21px 55px 10px;
+    }
+    .work-area {
+        padding: 65px 0 40px;
+    }
+    .work-area .section-description p {
+        width: 100%;
+    }
+    .work-box-icon::before {
+        display: none;
+    }
+    .call-do-action-area .section-description p {
+        width: 91%;
+    }
+    .contact-content {
+        top: -34px;
+        left: 29%;
+    }
+    .call-do-action-button a {
+        padding: 11px 33px;
+    }
+    .single-footer-box {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .recent-post-item.active {
+        padding-bottom: 43px;
+    }
+    .recent-tost-text {
+        text-align: left;
+    }
+    .company-info-title {
+        text-align: left;
+    }
+    .footer-bottom-conten {
+        text-align: center;
+    }
+    .footer-bottom-right {
+        text-align: center;
+    }
+    .counter-single-box {
+        margin-bottom: 25px;
+    }
+    .counter-shape-one {
+        display: none;
+    }
+    .counter-shape-tow {
+        display: none;
+    }
+    .case-study-area.style-three {
+        padding: 50px 0 35px;
+    }
+    .case-study-area.style-three .section-description p {
+        width: 100%;
+    }
+    .portfolio_menu ul li {
+        padding: 3px 17px;
+    }
+    .single_portfolio_icon {
+        top: 210px;
+    }
+    .case-study-content {
+        padding: 18px 30px 7px;
+    }
+    .tab_container {
+        margin-top: 23px;
+    }
+    .prot-info {
+        padding: 0 0;
+        margin-top: 35px;
+    }
+    .service-details-icon-box {
+        margin-top: 20px;
+    }
+    .service-page-title h1 {
+        font-size: 37px;
+    }
+    .blog-details-title a h1 {
+        font-size: 24px;
+    }
+    .blog-details-title-two h3 {
+        font-size: 25px;
+    }
+    .form-button {
+        margin-bottom: 27px;
+    }
+    .single-icon {
+        top: 114px;
+        left: 119px;
+    }
+    .shop-area {
+        padding: 53px 0 5px;
+    }
+    .shop-area .section-description p {
+        width: 93%;
+    }
+}
+
+/* small mobile :320px. */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .header-area {
+        display: none;
+    }
+    .hero-area {
+        height: 751px;
+    }
+    .hero-area::before {
+        left: 7px;
+    }
+    .hero-content {
+        text-align: center;
+        margin-top: 101px;
+    }
+    .hero-title h5 {
+        font-size: 16px;
+        color: #f3031e;
+        font-weight: 700;
+        margin-bottom: 14px;
+    }
+    .hero-title h1 {
+        font-size: 26px;
+        line-height: 29px;
+    }
+    .hero-description p {
+        width: 100%;
+    }
+    .hero-thumb img {
+        width: 100%;
+    }
+    .about-area {
+        padding: 75px 0 70px;
+    }
+    .about-area .section-mean-title h1 {
+        font-size: 23px;
+    }
+    .about-left {
+        right: 20px;
+        margin-bottom: 40px;
+    }
+    .about-thumb img {
+        width: 100%;
+    }
+    .counter-box {
+        right: -25px;
+        padding: 26px 17px 15px;
+    }
+    .service-area {
+        padding: 50px 0 70px;
+    }
+    .section-mean-title h1 {
+        font-size: 18px;
+        margin-top: 50px;
+    }
+    .section-sub-title h3 {
+        font-size: 13px;
+    }
+    .service-area::before {
+        left: 0;
+        width: 100%;
+    }
+    .service-area .section-description p {
+        width: 97%;
+    }
+    .service-single-box {
+        margin-bottom: 30px;
+    }
+    .choose-us-area {
+        padding: 67px 0 65px;
+    }
+    .choose-us-left {
+        right: 0px;
+    }
+    .choose-us-title h3 {
+        font-size: 9px;
+    }
+    .choose-us-description p {
+        font-size: 10px;
+    }
+    .choose-us-thumb img {
+        width: 100%;
+    }
+    .testimonial-area {
+        padding: 55px 0 106px;
+    }
+    .testimonial-area .section-description p {
+        width: 100%;
+    }
+    .work-area {
+        padding: 52px 0 46px;
+    }
+    .work-area .section-description p {
+        width: 90%;
+    }
+    .work-box-icon::before {
+        display: none;
+    }
+    .call-do-action-area .section-description p {
+        width: 91%;
+    }
+    .contact-content {
+        top: -34px;
+        left: 15%;
+    }
+    .call-do-action-button a {
+        padding: 11px 33px;
+    }
+    .single-footer-box {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .recent-post-item.active {
+        padding-bottom: 43px;
+    }
+    .recent-tost-text {
+        text-align: left;
+    }
+    .company-info-title {
+        text-align: left;
+    }
+    .footer-bottom-conten {
+        text-align: center;
+    }
+    .footer-bottom-right {
+        text-align: center;
+    }
+    .footer-bottom-right a {
+        font-size: 14px;
+        padding-left: 3px;
+    }
+    .counter-single-box {
+        margin-bottom: 25px;
+    }
+    .counter-shape-one {
+        display: none;
+    }
+    .counter-shape-tow {
+        display: none;
+    }
+    .case-study-area.style-three {
+        padding: 48px 0 34px;
+    }
+    .case-study-area.style-three .section-description p {
+        width: 91%;
+    }
+    .portfolio_menu ul li {
+        font-size: 12px;
+        padding: 3px 8px;
+    }
+    .breadcumb-title h1 {
+        font-size: 30px;
+    }
+    .contacts-titles p {
+        width: 100%;
+    }
+    .faq-area.new-style .accordion li a {
+        padding: 15px 9px 12px 11px;
+    }
+    .accordion li a {
+        font-size: 12px;
+    }
+    .accordion a::after {
+        right: 8px;
+    }
+    .accordion a::before {
+        right: 12px;
+    }
+    .protfolio-details-intro {
+        padding: 9px;
+    }
+    .prot-info {
+        padding: 0 0;
+        margin-top: 35px;
+    }
+    .prot-title h3 {
+        font-size: 22px;
+    }
+    .prot-title h2 {
+        font-size: 28px;
+    }
+    .prot-social-icon ul li a {
+        margin-right: 9px;
+    }
+    .blog-details-title a h1 {
+        font-size: 21px;
+    }
+    .blog-details-title-two h3 {
+        font-size: 18px;
+    }
+    .blog-details-social-address ul li a {
+        margin-right: 1px;
+    }
+    .form-button {
+        margin-bottom: 20px;
+    }
+    .single-icon {
+        top: 81px;
+        left: 58px;
+    }
+    .paginations ul li {
+        margin: 0 12px 0 9px;
+    }
+    .single-shop-icon {
+        top: 129px;
+    }
+    .shop-area .section-description p {
+        width: 100%;
+    }
+    .shop-product-title h3 a {
+        margin-top: 18px;
+    }
+    .single_portfolio_icon {
+        top: 105px;
+    }
+    .service-page-title h1 {
+        font-size: 22px;
+    }
+}
