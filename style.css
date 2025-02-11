@@ -105,7 +105,7 @@ Version: 0.1
     font-size: 14px;
     letter-spacing: 2px;
     color: #ffffff;
-    background: #f10239;
+    background:#d8482b;
     display: inline-block;
     padding: 19px 41px;
     border-radius: 10px 0 10px 0;
@@ -174,7 +174,7 @@ Version: 0.1
 
 .section-sub-title h3 {
     font-size: 18px;
-    color: #f3031e;
+    color: #D8482B;
     font-weight: 700;
     margin-bottom: 17px;
 }
@@ -253,7 +253,7 @@ p.about-description-one {
     font-size: 14px;
     letter-spacing: 2px;
     color: #ffffff;
-    background: #f3031e;
+    background: #D8482B;
     display: inline-block;
     padding: 13px 28px;
     border-radius: 10px 0 10px 0;
@@ -342,6 +342,7 @@ p.about-description-one {
 .service-single-thumb img {
     width: 100%;
     transition: .5s;
+    border-radius: 10px;
 }
 
 /*service-content*/
@@ -358,7 +359,7 @@ p.about-description-one {
     color: #ffffff;
     font-weight: 400;
     font-family: "Roboto";
-    background: #f3031e;
+    background: #d8482b;
     display: inline-block;
     padding: 4px 24px;
     border-radius: 5px 0 5px 0;
@@ -449,7 +450,7 @@ p.about-description-one {
     top: 0;
     width: 7px;
     height: 105%;
-    background: #f3031e;
+    background: #D8482B;
     border-radius: 10px 0 10px 0;
     transition: 0.5s;
     z-index: -1;
@@ -461,7 +462,7 @@ p.about-description-one {
 
 .choose-us-icon i {
     margin-right: 20px;
-    background: #f00;
+    background: #D8482B;
     display: inline-block;
     padding: 25px 25px;
     border-radius: 0 10px 0 10px;
@@ -473,7 +474,7 @@ p.about-description-one {
 
 .choose-us-single-box:hover .choose-us-icon i {
     background: #fff;
-    color: #f00;
+    color: #D8482B;
 }
 
 .choose-us-title h3 {
@@ -3089,7 +3090,7 @@ video {
     border-radius: 10px;
     transition: all 0.3s ease-in-out;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border: 2px solid #f3031e;
+    border: 2px solid #D8482B;
 }
 .specialization-box:hover {
     background: #e9ecef;
@@ -3097,7 +3098,7 @@ video {
 }
 .icon {
     font-size: 30px;
-    color: #f3031e;
+    color: #D8482B;
     margin-bottom: 10px;
 }
 .title {
@@ -3155,3 +3156,34 @@ select {
     padding: 10px;
     width: 100%;
 }
+
+.service-content {
+    text-align: center; /* Centers all content */
+}
+
+.service-points {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block; /* Makes sure the list centers */
+    text-align: left; /* Aligns text neatly while keeping overall centering */
+}
+
+.service-points li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 8px 0;
+    color: #2142a8;
+}
+
+.service-points li i {
+    color: #d8482b; /* Icon color */
+    font-size: 18px;
+    width: 30px; /* Fixed width for icons */
+    text-align: center;
+}
+
+
